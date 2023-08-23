@@ -136,9 +136,9 @@ def sum(list=[2,34]):
 sum()
 sum([1,2,3,4,5])
 
-def add(*args):
+def sub(*args):
     sum=0
     for i in args:
         sum+=i
     print(sum)
-add(12,2,3)
+sub(12,2,3)
